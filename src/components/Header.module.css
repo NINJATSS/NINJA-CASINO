@@ -9,7 +9,7 @@
 
 @media (min-height: 800px) {
   .wrapper {
-    background: #000000CC;
+    background: #0000003c;
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     padding: 10px 20px;
@@ -43,7 +43,21 @@
 
 .title {
   display: none;
-  @media (min-width: 800px) {
+}
+
+@media (min-width: 800px) {
+  .title {
     display: block;
   }
+}
+
+.iconContainer {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.icon {
+  color: var(--icon-color, #ffffff); /* Adjust the color as per your theme */
+  font-size: 1.5em; /* Adjust the size as needed */
 }

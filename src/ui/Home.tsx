@@ -9,21 +9,13 @@ export function Home() {
     <div className={styles.banner}>
       <Section>
         <h2>
-          Gamba Demo
+          NINJA TURTLE
         </h2>
         <p style={{ wordWrap: 'break-word' }}>
-          A decentralized, provably-fair casino built on Gamba.
+          A on-chain, provably-fair casino built on Gamba.
         </p>
         <div style={{ display: 'flex', gap: '10px' }}>
-          <Button
-            as="a"
-            color="white"
-            href="https://gamba.so"
-            target="_blank"
-            icon={<Icon.ExternalLink />}
-          >
-            Learn more
-          </Button>
+          
         </div>
       </Section>
     </div>

@@ -13,15 +13,9 @@ export function Card({ game }: Props) {
       <NavButton
         className={styles.card}
         to={'/' + game.short_name}
-        style={{ backgroundColor: game.theme_color }}
+        style={{ backgroundColor: game.theme_color, backgroundImage: `url(${game.image})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
       >
         <div className={styles.background} />
-        {game.image && (
-          <div
-            className={styles.logo}
-            style={{ backgroundImage: 'url(' + game.image + ')' }}
-          />
-        )}
       </NavButton>
     </>
   )

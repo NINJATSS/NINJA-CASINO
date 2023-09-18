@@ -7,7 +7,7 @@ export default {
   description: `
     Pick Heads or Tails. Double your money or go broke. Simple as.
   `,
-  creator: 'DwRFGbjKbsEhUMe5at3qWvH7i8dAJyhhwdnFoZMnLVRV',
+  creator: '399KgE5gpzFvBB8arZLxA2bes3n4FY7rTMmzifHohPzx',
   image,
   theme_color: 'rgb(255 218 121)',
   app: React.lazy(() => import('./App')),
