@@ -58,6 +58,6 @@
 }
 
 .icon {
-  color: var(--icon-color, #ffffff); /* Adjust the color as per your theme */
+  color: var(--icon-color, #8f0d8a); /* Adjust the color as per your theme */
   font-size: 1.5em; /* Adjust the size as needed */
 }
