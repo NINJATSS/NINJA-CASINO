@@ -78,7 +78,7 @@ function Mines() {
     try {
       await gamba.play({
         bet,
-        wager: config.wager + totalGain,
+        wager: config.wager + totalGain, creatorFee: 0.02
       })
 
       sounds.tick.play({ playbackRate: 1.5 })
