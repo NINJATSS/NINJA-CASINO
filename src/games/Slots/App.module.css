@@ -96,7 +96,7 @@
   background: #33aadd;
   overflow: hidden;
   border-radius: 10px;
-  border: 1px solid #2d2d57;
+  border: 1px solid #710aa8;
   pointer-events: none;
   transition: background .2s, border .2s, box-shadow .2s;
 }
