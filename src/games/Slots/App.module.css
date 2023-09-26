@@ -21,7 +21,7 @@
 @keyframes reveal-glow {
   0%, 30% {
     border-color: #2d2d57;
-    background: #ffffff00;
+    background: #710aa8;
   }
   10% {
     border-color: white;
