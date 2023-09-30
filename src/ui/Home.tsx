@@ -12,7 +12,7 @@ export function Home() {
           NINJA TURTLE
         </h2>
         <p style={{ wordWrap: 'break-word' }}>
-          A on-chain, provably-fair casino built on Gamba.
+          A on-chain, provably-fair casino play & earn revinue rewards.
         </p>
         <div style={{ display: 'flex', gap: '10px' }}>
           
