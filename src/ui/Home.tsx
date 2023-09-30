@@ -12,7 +12,7 @@ export function Home() {
           NINJA TURTLE
         </h2>
         <p style={{ wordWrap: 'break-word' }}>
-          A on-chain, provably-fair casino. play & have fun. revinue rewards for NFT Holders of +4.🥷🐢
+          A on-chain, provably -fair casino 🎰 So come play have some fun & if you hold 4+ NINJA NFTs theirs the added bonus of revenue rewards. So don't delay come & play it's the Ninja way 🥷🐢
         </p>
         <div style={{ display: 'flex', gap: '10px' }}>
           
